@@ -6,3 +6,5 @@ report.columns=['Номер_транзакции','Дата','Время','Ти�
 report['Дата'] = report['Дата'].apply(lambda _: datetime.strptime(_,'%d.%m.%y'))
 report['Дата'] = report[' 787 Дата'].dt.strftime('%d.%m.%y')
 report['Время'] = pd.to_datetime(report['Время'], format = '%H:%M:%S').dt.time
+print('хоба');
+Мой самый последний Задача 
