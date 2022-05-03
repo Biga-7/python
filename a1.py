@@ -7,4 +7,4 @@ report['Дата'] = report['Дата'].apply(lambda _: datetime.strptime(_,'%d.
 report['Дата'] = report[' 787 Дата'].dt.strftime('%d.%m.%y')
 report['Время'] = pd.to_datetime(report['Время'], format = '%H:%M:%S').dt.time
 print('хоба');
-ljlsdfsdf
+Мой самый последний 
